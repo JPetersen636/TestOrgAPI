@@ -5,7 +5,7 @@ on:
  
 jobs:
   build:
-    runs-on: aks-runners-jp
+    runs-on: self-hosted
  
     steps:
       - uses: actions/checkout@v4
