@@ -1,0 +1,14 @@
+name: Build
+ 
+on:
+  push:
+ 
+jobs:
+  build:
+    runs-on: aks-runners
+ 
+    steps:
+      - uses: actions/checkout@v4
+ 
+      - name: Test
+        run: echo "Running on AKS"
